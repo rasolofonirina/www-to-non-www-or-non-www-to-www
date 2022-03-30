@@ -43,3 +43,7 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTP_HOST} ^www.example\.com [NC]
 RewriteRule ^(.*)$ https://example.com/$1 [L,R=301]
 ```
+<br>
+<br>
+
+You can buy me a coffee [here](https://www.buymeacoffee.com/rasolofonirina).
